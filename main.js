@@ -7,6 +7,7 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 //stampare i numeri da 1 a 100
 for(let i = 1; i <= 100; i++){
+    console.log(i);   
 //se sono multipli di 3 stampi “Fizz”
     if(i % 3 === 0){
         console.log('fizz');
@@ -15,6 +16,7 @@ for(let i = 1; i <= 100; i++){
         console.log('Buzz');
 //se sono sia multipli di 3 che di 5 stampi "FizzBuzz"
     }else{
-        console.log('FizzBuzz');  
+        console.log('fizzbuzz');   
     }
 }
+
